@@ -1,0 +1,29 @@
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+
+  li {
+    display: flex;
+    a {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      width: 100%;
+      box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.089);
+    }
+  }
+
+  .todo-done {
+    opacity: 0.6;
+    a {
+      color: black;
+    }
+  }
+  .todo-expired {
+    a {
+      color: rgba(255, 0, 0, 0.712);
+    }
+  }
+}
